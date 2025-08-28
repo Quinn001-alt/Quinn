@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Marvel Characters</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #0d1117;
+      color: #e6edf3;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background: #d32f2f;
+      padding: 1rem;
+      text-align: center;
+      color: white;
+      font-size: 1.8rem;
+      font-weight: bold;
+      letter-spacing: 2px;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      background: #111;
+      padding: 0.7rem;
+      gap: 1.5rem;
+    }
+
+    nav a {
+      color: #e6edf3;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+      color: #ff3d3d;
+    }
+
+    .container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 2rem;
+    }
+
+    .card {
+      background: #161b22;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 6px 20px rgba(255,61,61,0.4);
+    }
+
+    .card img {
+      width: 100%;
+      height: 280px;
+      object-fit: cover;
+    }
+
+    .card h2 {
+      margin: 10px;
+      font-size: 1.4rem;
+      color: #ff3d3d;
+    }
+
+    .card p {
+      margin: 0 10px 15px;
+      font-size: 0.95rem;
+      line-height: 1.5;
+    }
+  </style>
+</head>
+<body>
+  <header>Marvel Character Profiles</header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="comics.html">Comics</a>
+ <a href="about.html">About</a>
+  </nav>
+
+  <div class="container">
+    <!-- Existing Characters -->
+    <div class="card">
+      <img src="spiderman.jpg" alt="Spider-Man">
+      <h2>Spider-Man</h2>
+      <p>Peter Parker, the friendly neighborhood Spider-Man, balancing hero life with responsibility.</p>
+    </div>
+
+    <div class="card">
+      <img src="tonystark.jpg" alt="Iron Man">
+      <h2>Iron Man</h2>
+      <p>Tony Stark, genius, billionaire, and armored Avenger with a sharp wit.</p>
+    </div>
+
+    <div class="card">
+      <img src="logan.jpg" alt="Logan">
+      <h2>Logan / Wolverine</h2>
+      <p>Mutant with healing factor, adamantium claws, and an untamed spirit.</p>
+    </div>
+
+    <!-- New Characters -->
+    <div class="card">
+      <img src="steverogers.jpg" alt="Captain America">
+      <h2>Captain America</h2>
+      <p>Steve Rogers, the super-soldier who embodies hope, courage, and leadership.</p>
+    </div>
+
+    <div class="card">
+      <img src="natasharomanoff.jpg" alt="Black Widow">
+      <h2>Black Widow</h2>
+      <p>Natasha Romanoff, elite spy and Avenger, skilled in combat and espionage.</p>
+    </div>
+
+    <div class="card">
+      <img src="hulk.jpg" alt="Hulk">
+      <h2>Hulk</h2>
+      <p>Bruce Banner’s rage unleashes the unstoppable green giant, the Hulk.</p>
+    </div>
+
+    <div class="card">
+      <img src="thor.jpg" alt="Thor">
+      <h2>Thor</h2>
+      <p>The God of Thunder, wielding Mjolnir and defending realms with honor.</p>
+    </div>
+
+    <div class="card">
+      <img src="mrfantastic.jpg" alt="Mr Fantastic">
+      <h2>Mr. Fantastic</h2>
+      <p>Reed Richards, leader of the Fantastic Four, with unmatched intellect and elasticity.</p>
+    </div>
+
+    <div class="card">
+      <img src="invisiblewoman.jpg" alt="Invisible Woman">
+      <h2>Invisible Woman</h2>
+      <p>Susan Storm, powerful and compassionate, master of invisibility and force fields.</p>
+    </div>
+
+    <div class="card">
+      <img src="humantorch.jpg" alt="Human Torch">
+      <h2>Human Torch</h2>
+      <p>Johnny Storm, hot-headed and fiery hero of the Fantastic Four.</p>
+    </div>
+
+    <div class="card">
+      <img src="thing.jpg" alt="The Thing">
+      <h2>The Thing</h2>
+      <p>Ben Grimm, rock-skinned powerhouse of the Fantastic Four with a heart of gold.</p>
+    </div>
+
+    <div class="card">
+      <img src="storm.jpg" alt="Storm">
+      <h2>Storm</h2>
+      <p>Ororo Munroe, mutant queen of weather manipulation and a true leader of the X-Men.</p>
+    </div>
+
+    <div class="card">
+      <img src="cyclops.jpg" alt="Cyclops">
+      <h2>Cyclops</h2>
+      <p>Scott Summers, X-Men leader with optic blasts and unwavering discipline.</p>
+    </div>
+
+    <div class="card">
+      <img src="jeangrey.jpg" alt="Jean Grey">
+      <h2>Jean Grey</h2>
+      <p>Mutant telepath and telekinetic, carrying the fiery power of the Phoenix.</p>
+    </div>
+
+    <div class="card">
+      <img src="laura.jpg" alt="Laura Kinney">
+      <h2>Laura Kinney</h2>
+      <p>Also known as X-23, clone of Wolverine with claws and resilience to match.</p>
+    </div>
+
+    <div class="card">
+      <img src="ghostspider.jpg" alt="Ghost Spider">
+      <h2>Ghost Spider</h2>
+      <p>Gwen Stacy from another universe, taking on the mantle of Spider-Woman.</p>
+    </div>
+
+    <div class="card">
+      <img src="katebishop.jpg" alt="Kate Bishop">
+      <h2>Kate Bishop</h2>
+      <p>Young Avenger with unmatched archery skills and a sharp tongue, heir to Hawkeye’s legacy.</p>
+    </div>
+  </div>
+</body>
+</html>

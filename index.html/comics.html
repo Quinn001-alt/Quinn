@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Marvel Comic Panels</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to bottom right, #141414, #1e1e2f);
+      color: #fff;
+    }
+
+    /* Navigation Bar */
+    nav {
+      background: #c0392b; /* Spider-Man red */
+      padding: 15px;
+      text-align: center;
+      box-shadow: 0 3px 10px rgba(0,0,0,0.3);
+    }
+
+    nav a {
+      color: #fff;
+      margin: 0 20px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #3498db; /* Spider-Man blue */
+    }
+
+    h1 {
+      text-align: center;
+      margin: 20px 0;
+      color: #e74c3c;
+      text-shadow: 0 0 5px #000;
+    }
+
+    /* Comic Panels Grid */
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 30px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .panel {
+      background: rgba(255,255,255,0.05);
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.6);
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .panel:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 8px 25px rgba(231,76,60,0.7);
+    }
+
+    .panel img {
+      width: 100%;
+      height: 350px;
+      object-fit: cover;
+      border-bottom: 3px solid #c0392b;
+    }
+
+    .panel h2 {
+      margin: 15px;
+      color: #ecf0f1;
+      font-size: 1.3rem;
+    }
+
+    .panel p {
+      margin: 0 15px 20px;
+      font-size: 0.9rem;
+      color: #bdc3c7;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navigation -->
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="characters.html">Characters</a>
+ <a href="about.html">About</a>
+     </nav>
+
+  <h1>Marvel Comic Panels</h1>
+
+  <!-- Comic Panels Grid -->
+  <div class="grid">
+    <div class="panel">
+      <img src="secretwars.jpg" alt="Secret Wars">
+      <h2>Secret Wars</h2>
+      <p>The ultimate Marvel crossover that changed the game.</p>
+    </div>
+    <div class="panel">
+      <img src="civilwar1.jpg" alt="Civil War">
+      <h2>Civil War</h2>
+      <p>Heroes divided, friends turned against each other.</p>
+    </div>
+    <div class="panel">
+      <img src="civilwar2.jpg" alt="Civil War II">
+      <h2>Civil War II</h2>
+      <p>The clash of ideologies reignites in a new era.</p>
+    </div>
+    <div class="panel">
+      <img src="secretinvasion.jpg" alt="Secret Invasion">
+      <h2>Secret Invasion</h2>
+      <p>The Skrulls are among us—who can you trust?</p>
+    </div>
+    <div class="panel">
+      <img src="amazingspiderman.jpg" alt="Amazing Spider-Man">
+      <h2>Amazing Spider-Man</h2>
+      <p>Classic Spidey stories full of action and heart.</p>
+    </div>
+    <div class="panel">
+      <img src="avengers.jpg" alt="The Avengers">
+      <h2>The Avengers</h2>
+      <p>Earth’s Mightiest Heroes united against impossible odds.</p>
+    </div>
+    <div class="panel">
+      <img src="xmen.jpg" alt="Uncanny X-Men">
+      <h2>Uncanny X-Men</h2>
+      <p>The mutant struggle for peace and survival.</p>
+    </div>
+  </div>
+</body>
+</html>
