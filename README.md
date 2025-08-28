@@ -1,0 +1,1 @@
+This is a project i have done for my Digital Marketing class of my MBA course, i don't have any rights to the contents in thissite, they are all used for just educational purpose, all rights are reserved by Marvel and the rights holders, thankyou for showing interest in my work.
